@@ -5,7 +5,7 @@
 <script type="text/javascript" src="<?php echo base_url() ?>html/v1/test/Collection/B300Collection.js"></script>
 <script type="text/javascript" src="<?php echo base_url() ?>html/v1/test/View/B300ViewModel.js"></script>
 <script type="text/javascript" src="<?php echo base_url() ?>html/v1/test/Controller/BaseController.js"></script>
-<script type="text/javascript" src="<?php echo base_url() ?>html/v1/test/Controller/B300Controller.js"></script>
+<!-- <script type="text/javascript" src="<?php echo base_url() ?>html/v1/test/Controller/B300Controller.js"></script> -->
 
 
 
