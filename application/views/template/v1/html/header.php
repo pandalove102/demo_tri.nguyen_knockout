@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-	<head>
+<head>
 		<meta charset="UTF-8">
 		<title>MVC Framework</title>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -10,10 +10,10 @@
 		
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
 		
-		<script src="<?php echo base_url().'html/v1/common/js/backbone/backbone.js'; ?>"></script>
-		<script src="<?php echo base_url().'html/v1/common/js/backbone/backbone.localStorage-min.js'; ?>"></script>
-		<script src="<?php echo base_url().'html/v1/common/js/knockout/knockout-3.4.2.js'; ?>"></script>
-		<script src="<?php echo base_url().'html/v1/common/js/knockback/knockback-full-stack.js'; ?>"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.3.3/backbone-min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/backbone-localstorage.js/1.1.16/backbone.localStorage-min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.2/knockout-min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/knockback-core-stack/0.17.2/knockback-core-stack.min.js"></script>
 		
 	</head>
 
