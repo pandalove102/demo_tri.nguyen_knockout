@@ -1,4 +1,9 @@
-
+/**
+ * @author  tri.nguyen
+ * @date    05/04/2018
+ * @description nhớ comment đầy đủ
+ * @type type
+ */
 var B300Collection = Backbone.Collection.extend({
     model: B300Model,
     localStorage: new Store('B300Collection'),
