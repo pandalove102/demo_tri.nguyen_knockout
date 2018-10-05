@@ -1,7 +1,7 @@
 
-var B300Collection = Backbone.Collection.extend({
-    model: B300Model,
-    localStorage: new Store('B300Collection'),
+var demoCollection = Backbone.Collection.extend({
+    model: demoModel,
+    localStorage: new Store('demoCollection'),
     initialize: function () {
         this.on("add", this.addCollection, this);
         this.on("remove", this.removeCollection, this);

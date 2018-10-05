@@ -1,5 +1,5 @@
 
-var B300Model = Backbone.Model.extend({
+var demoModel = Backbone.Model.extend({
     defaults: {
         cid: AdmUtil.uuid()
     }
