@@ -15,7 +15,7 @@ class Home extends MY_Controller
 	public function index()
 	{
 		$content = array(
-			'view' => 'home',
+			'view' => 'home2',
 			'data' => $this->data
 		);
 		$this->load_template($this->header, $content, $this->footer);

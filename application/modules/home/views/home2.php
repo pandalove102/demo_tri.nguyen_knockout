@@ -2,7 +2,7 @@
 	<div class="row" kb-inject="BaseController">
     <form>
     <div class="form-group">
-        <label for="exampleInputEmail1">Title</label>
+        <label for="exampleInputEmail1">Home </label>
         <input type="text" class="form-control" data-bind="value: demoViewModel.title">
     </div>
     <div class="form-group">
