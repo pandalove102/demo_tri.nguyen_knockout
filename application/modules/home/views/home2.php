@@ -1,5 +1,5 @@
 <div class="container">
-	<div class="row" kb-inject="BaseController">
+	<div class="row" kb-inject="demoBasecontroller">
     <form>
     <div class="form-group">
         <label for="exampleInputEmail1">Home </label>
@@ -15,9 +15,9 @@
     </form>
 
         <table class="table">
-            <caption>
-                <!-- <a title="" class="btn btn-primary btn-rounded btn-outline" data-bind="{click:$parent.onAdd}">Add</a> -->
-            </caption>
+            <!-- <caption>
+                <a title="" class="btn btn-primary btn-rounded btn-outline" data-bind="{click:$parent.onAdd}">Add</a>
+            </caption> -->
             <thead>
                 <tr>
                     <td>STT</td>

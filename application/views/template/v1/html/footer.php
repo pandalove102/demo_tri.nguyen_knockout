@@ -1,11 +1,11 @@
 
 <script type="text/javascript" src="<?php echo base_url() ?>html/v1/test/service_woker.js"></script>
 <script type="text/javascript" src="<?php echo base_url() ?>html/v1/test/Service/Services.js"></script>
-<script type="text/javascript" src="<?php echo base_url() ?>html/v1/test/Model/B300Model.js"></script>
-<script type="text/javascript" src="<?php echo base_url() ?>html/v1/test/Collection/B300Collection.js"></script>
-<script type="text/javascript" src="<?php echo base_url() ?>html/v1/test/View/B300ViewModel.js"></script>
-<script type="text/javascript" src="<?php echo base_url() ?>html/v1/test/Controller/BaseController.js"></script>
-<!-- <script type="text/javascript" src="<?php echo base_url() ?>html/v1/test/Controller/B300Controller.js"></script> -->
+<script type="text/javascript" src="<?php echo base_url() ?>html/v1/test/Model/demoModel.js"></script>
+<script type="text/javascript" src="<?php echo base_url() ?>html/v1/test/Collection/demoCollection.js"></script>
+<script type="text/javascript" src="<?php echo base_url() ?>html/v1/test/View/demoViewModel.js"></script>
+<script type="text/javascript" src="<?php echo base_url() ?>html/v1/test/Controller/demoBaseController.js"></script> -->
+<!-- <script type="text/javascript" src="<?php echo base_url() ?>html/v1/test/Controller/demoController.js"></script> -->
 
 
 

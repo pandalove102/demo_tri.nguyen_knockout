@@ -16,16 +16,16 @@
         this.demoModel = demoModel();
         this.demoViewModel = new demoViewModel(this.demoModel);
     
-        console.log(_this.b300ViewModel)
+        // console.log(_this.demoViewModel)
         this.onSave = function() {
-            console.log(_this.b300ViewModel.title());
-            console.log(_this.b300ViewModel.description());
-            var array  = {title: _this.b300ViewModel.title(), description: _this.b300ViewModel.description()}
-            _this.b300Collect.b300Collection.add(array);
+            // console.log(_this.demoViewModel.title());
+            // console.log(_this.demoViewModel.description());
+            var array  = {title: _this.demoViewModel.title(), description: _this.demoViewModel.description()}
+            _this.demoCollect.demoCollection.add(array);
         }
 
         this.onRemove = function (view_model) {
-            _this.b300Collection.remove(view_model);
+            _this.demoCollection.remove(view_model);
         };
 
         var allVals = [];
@@ -43,7 +43,7 @@
             allVals.push(dataTraveling); 
         }
             
-        _this.b300Collect.b300Collection.add(allVals);
+        _this.demoCollect.demoCollection.add(allVals);
 
     }
 }).call(this)
